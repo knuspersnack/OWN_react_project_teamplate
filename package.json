@@ -1,0 +1,25 @@
+{
+  "name": "react-project-template",
+  "version": "1.0.0",
+  "description": "A template for creating further applications in react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "start": "npm run build && liv-server dist"
+  },
+  "author": "knuspersnack",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "live-server": "^1.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "parcel-bundler": "^1.12.3"
+  }
+}
